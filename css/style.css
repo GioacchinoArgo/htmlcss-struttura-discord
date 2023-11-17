@@ -1,1 +1,51 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* header */
+
+.upper-header {
+    width: 100%;
+    min-height: 80px; 
+    background-color: #ADD8E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* upper header */
+.side-nav {
+    flex-basis: 13%;
+    min-height: 48px;
+    background-color: #da2020;
+    border: 2px dashed black;
+}
+
+.center-nav {
+    flex-basis: 36%;
+    min-height: 48px;
+    background-color: #da2020;
+    border: 2px dashed black;
+}
+
+/* lower header */
+.lower-header {
+    width: 100%;
+    min-height: 500px; 
+    background-color: #00008B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.jumbotron {
+    flex-basis: 50%;
+    min-height: 400px;
+    background-color: yellow;
+    border: 2px dashed black;
+}
